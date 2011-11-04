@@ -1,0 +1,1411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		873B735C14646EF100A62DBB /* libopencv_calib3d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72D414646EF000A62DBB /* libopencv_calib3d.a */; };
+		873B735D14646EF100A62DBB /* libopencv_contrib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72D514646EF000A62DBB /* libopencv_contrib.a */; };
+		873B735E14646EF100A62DBB /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72D614646EF000A62DBB /* libopencv_core.a */; };
+		873B735F14646EF100A62DBB /* libopencv_features2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72D714646EF000A62DBB /* libopencv_features2d.a */; };
+		873B736014646EF100A62DBB /* libopencv_flann.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72D814646EF000A62DBB /* libopencv_flann.a */; };
+		873B736114646EF100A62DBB /* libopencv_haartraining_engine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72D914646EF000A62DBB /* libopencv_haartraining_engine.a */; };
+		873B736214646EF100A62DBB /* libopencv_highgui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72DA14646EF000A62DBB /* libopencv_highgui.a */; };
+		873B736314646EF100A62DBB /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72DB14646EF000A62DBB /* libopencv_imgproc.a */; };
+		873B736414646EF100A62DBB /* libopencv_lapack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72DC14646EF000A62DBB /* libopencv_lapack.a */; };
+		873B736514646EF100A62DBB /* libopencv_legacy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72DD14646EF000A62DBB /* libopencv_legacy.a */; };
+		873B736614646EF100A62DBB /* libopencv_ml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72DE14646EF000A62DBB /* libopencv_ml.a */; };
+		873B736714646EF100A62DBB /* libopencv_objdetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72DF14646EF000A62DBB /* libopencv_objdetect.a */; };
+		873B736814646EF100A62DBB /* libopencv_video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72E014646EF000A62DBB /* libopencv_video.a */; };
+		873B736914646EF100A62DBB /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72E214646EF000A62DBB /* libzlib.a */; };
+		873B736A14646EF100A62DBB /* libopencv_calib3d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72E414646EF000A62DBB /* libopencv_calib3d.a */; };
+		873B736B14646EF100A62DBB /* libopencv_contrib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72E514646EF000A62DBB /* libopencv_contrib.a */; };
+		873B736C14646EF100A62DBB /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72E614646EF000A62DBB /* libopencv_core.a */; };
+		873B736D14646EF100A62DBB /* libopencv_features2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72E714646EF000A62DBB /* libopencv_features2d.a */; };
+		873B736E14646EF100A62DBB /* libopencv_flann.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72E814646EF000A62DBB /* libopencv_flann.a */; };
+		873B736F14646EF100A62DBB /* libopencv_haartraining_engine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72E914646EF000A62DBB /* libopencv_haartraining_engine.a */; };
+		873B737014646EF100A62DBB /* libopencv_highgui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72EA14646EF000A62DBB /* libopencv_highgui.a */; };
+		873B737114646EF100A62DBB /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72EB14646EF000A62DBB /* libopencv_imgproc.a */; };
+		873B737214646EF100A62DBB /* libopencv_lapack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72EC14646EF000A62DBB /* libopencv_lapack.a */; };
+		873B737314646EF100A62DBB /* libopencv_legacy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72ED14646EF000A62DBB /* libopencv_legacy.a */; };
+		873B737414646EF100A62DBB /* libopencv_ml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72EE14646EF000A62DBB /* libopencv_ml.a */; };
+		873B737514646EF100A62DBB /* libopencv_objdetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72EF14646EF000A62DBB /* libopencv_objdetect.a */; };
+		873B737614646EF100A62DBB /* libopencv_video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72F014646EF000A62DBB /* libopencv_video.a */; };
+		873B737714646EF100A62DBB /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72F214646EF000A62DBB /* libzlib.a */; };
+		873B737814646EF100A62DBB /* opencv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72F414646EF000A62DBB /* opencv.a */; };
+		873B737914646EF100A62DBB /* libopencv_calib3d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72F614646EF000A62DBB /* libopencv_calib3d.a */; };
+		873B737A14646EF100A62DBB /* libopencv_contrib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72F714646EF000A62DBB /* libopencv_contrib.a */; };
+		873B737B14646EF100A62DBB /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72F814646EF000A62DBB /* libopencv_core.a */; };
+		873B737C14646EF100A62DBB /* libopencv_features2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72F914646EF000A62DBB /* libopencv_features2d.a */; };
+		873B737D14646EF100A62DBB /* libopencv_flann.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72FA14646EF000A62DBB /* libopencv_flann.a */; };
+		873B737E14646EF100A62DBB /* libopencv_gpu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72FB14646EF000A62DBB /* libopencv_gpu.a */; };
+		873B737F14646EF100A62DBB /* libopencv_haartraining_engine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72FC14646EF000A62DBB /* libopencv_haartraining_engine.a */; };
+		873B738014646EF100A62DBB /* libopencv_highgui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72FD14646EF000A62DBB /* libopencv_highgui.a */; };
+		873B738114646EF100A62DBB /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72FE14646EF000A62DBB /* libopencv_imgproc.a */; };
+		873B738214646EF100A62DBB /* libopencv_lapack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B72FF14646EF000A62DBB /* libopencv_lapack.a */; };
+		873B738314646EF100A62DBB /* libopencv_legacy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730014646EF000A62DBB /* libopencv_legacy.a */; };
+		873B738414646EF100A62DBB /* libopencv_ml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730114646EF000A62DBB /* libopencv_ml.a */; };
+		873B738514646EF100A62DBB /* libopencv_objdetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730214646EF000A62DBB /* libopencv_objdetect.a */; };
+		873B738614646EF100A62DBB /* libopencv_video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730314646EF000A62DBB /* libopencv_video.a */; };
+		873B738714646EF100A62DBB /* libopencv_calib3d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730614646EF100A62DBB /* libopencv_calib3d.a */; };
+		873B738814646EF100A62DBB /* libopencv_contrib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730714646EF100A62DBB /* libopencv_contrib.a */; };
+		873B738914646EF100A62DBB /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730814646EF100A62DBB /* libopencv_core.a */; };
+		873B738A14646EF100A62DBB /* libopencv_features2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730914646EF100A62DBB /* libopencv_features2d.a */; };
+		873B738B14646EF100A62DBB /* libopencv_flann.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730A14646EF100A62DBB /* libopencv_flann.a */; };
+		873B738C14646EF100A62DBB /* libopencv_gpu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730B14646EF100A62DBB /* libopencv_gpu.a */; };
+		873B738D14646EF100A62DBB /* libopencv_haartraining_engine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730C14646EF100A62DBB /* libopencv_haartraining_engine.a */; };
+		873B738E14646EF100A62DBB /* libopencv_highgui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730D14646EF100A62DBB /* libopencv_highgui.a */; };
+		873B738F14646EF100A62DBB /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730E14646EF100A62DBB /* libopencv_imgproc.a */; };
+		873B739014646EF100A62DBB /* libopencv_lapack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B730F14646EF100A62DBB /* libopencv_lapack.a */; };
+		873B739114646EF100A62DBB /* libopencv_legacy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B731014646EF100A62DBB /* libopencv_legacy.a */; };
+		873B739214646EF100A62DBB /* libopencv_ml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B731114646EF100A62DBB /* libopencv_ml.a */; };
+		873B739314646EF200A62DBB /* libopencv_objdetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B731214646EF100A62DBB /* libopencv_objdetect.a */; };
+		873B739414646EF200A62DBB /* libopencv_video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B731314646EF100A62DBB /* libopencv_video.a */; };
+		873B739514646EF200A62DBB /* opencv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B731614646EF100A62DBB /* opencv.a */; };
+		873B739614646EF200A62DBB /* opencv_calib3d220.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B731814646EF100A62DBB /* opencv_calib3d220.lib */; };
+		873B739714646EF200A62DBB /* opencv_calib3d220d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B731914646EF100A62DBB /* opencv_calib3d220d.lib */; };
+		873B739814646EF200A62DBB /* opencv_contrib220.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B731A14646EF100A62DBB /* opencv_contrib220.lib */; };
+		873B739914646EF200A62DBB /* opencv_contrib220d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B731B14646EF100A62DBB /* opencv_contrib220d.lib */; };
+		873B739A14646EF200A62DBB /* opencv_core220.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B731C14646EF100A62DBB /* opencv_core220.lib */; };
+		873B739B14646EF200A62DBB /* opencv_core220d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B731D14646EF100A62DBB /* opencv_core220d.lib */; };
+		873B739C14646EF200A62DBB /* opencv_features2d220.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B731E14646EF100A62DBB /* opencv_features2d220.lib */; };
+		873B739D14646EF200A62DBB /* opencv_features2d220d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B731F14646EF100A62DBB /* opencv_features2d220d.lib */; };
+		873B739E14646EF200A62DBB /* opencv_flann220.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732014646EF100A62DBB /* opencv_flann220.lib */; };
+		873B739F14646EF200A62DBB /* opencv_flann220d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732114646EF100A62DBB /* opencv_flann220d.lib */; };
+		873B73A014646EF200A62DBB /* opencv_gpu220.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732214646EF100A62DBB /* opencv_gpu220.lib */; };
+		873B73A114646EF200A62DBB /* opencv_gpu220d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732314646EF100A62DBB /* opencv_gpu220d.lib */; };
+		873B73A214646EF200A62DBB /* opencv_haartraining_engine.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732414646EF100A62DBB /* opencv_haartraining_engine.lib */; };
+		873B73A314646EF200A62DBB /* opencv_haartraining_engined.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732514646EF100A62DBB /* opencv_haartraining_engined.lib */; };
+		873B73A414646EF200A62DBB /* opencv_highgui220.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732614646EF100A62DBB /* opencv_highgui220.lib */; };
+		873B73A514646EF200A62DBB /* opencv_highgui220d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732714646EF100A62DBB /* opencv_highgui220d.lib */; };
+		873B73A614646EF200A62DBB /* opencv_imgproc220.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732814646EF100A62DBB /* opencv_imgproc220.lib */; };
+		873B73A714646EF200A62DBB /* opencv_imgproc220d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732914646EF100A62DBB /* opencv_imgproc220d.lib */; };
+		873B73A814646EF200A62DBB /* opencv_lapack.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732A14646EF100A62DBB /* opencv_lapack.lib */; };
+		873B73A914646EF200A62DBB /* opencv_lapackd.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732B14646EF100A62DBB /* opencv_lapackd.lib */; };
+		873B73AA14646EF200A62DBB /* opencv_legacy220.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732C14646EF100A62DBB /* opencv_legacy220.lib */; };
+		873B73AB14646EF200A62DBB /* opencv_legacy220d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732D14646EF100A62DBB /* opencv_legacy220d.lib */; };
+		873B73AC14646EF200A62DBB /* opencv_ml220.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732E14646EF100A62DBB /* opencv_ml220.lib */; };
+		873B73AD14646EF200A62DBB /* opencv_ml220d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B732F14646EF100A62DBB /* opencv_ml220d.lib */; };
+		873B73AE14646EF200A62DBB /* opencv_objdetect220.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733014646EF100A62DBB /* opencv_objdetect220.lib */; };
+		873B73AF14646EF200A62DBB /* opencv_objdetect220d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733114646EF100A62DBB /* opencv_objdetect220d.lib */; };
+		873B73B014646EF200A62DBB /* opencv_ts220.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733214646EF100A62DBB /* opencv_ts220.lib */; };
+		873B73B114646EF200A62DBB /* opencv_ts220d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733314646EF100A62DBB /* opencv_ts220d.lib */; };
+		873B73B214646EF200A62DBB /* opencv_video220.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733414646EF100A62DBB /* opencv_video220.lib */; };
+		873B73B314646EF200A62DBB /* opencv_video220d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733514646EF100A62DBB /* opencv_video220d.lib */; };
+		873B73B414646EF200A62DBB /* zlib.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733614646EF100A62DBB /* zlib.lib */; };
+		873B73B514646EF200A62DBB /* zlibd.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733714646EF100A62DBB /* zlibd.lib */; };
+		873B73B614646EF200A62DBB /* libopencv_calib3d220.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733914646EF100A62DBB /* libopencv_calib3d220.a */; };
+		873B73B714646EF200A62DBB /* libopencv_contrib220.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733A14646EF100A62DBB /* libopencv_contrib220.a */; };
+		873B73B814646EF200A62DBB /* libopencv_core220.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733B14646EF100A62DBB /* libopencv_core220.a */; };
+		873B73B914646EF200A62DBB /* libopencv_features2d220.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733C14646EF100A62DBB /* libopencv_features2d220.a */; };
+		873B73BA14646EF200A62DBB /* libopencv_flann220.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733D14646EF100A62DBB /* libopencv_flann220.a */; };
+		873B73BB14646EF200A62DBB /* libopencv_gpu220.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733E14646EF100A62DBB /* libopencv_gpu220.a */; };
+		873B73BC14646EF200A62DBB /* libopencv_haartraining_engine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B733F14646EF100A62DBB /* libopencv_haartraining_engine.a */; };
+		873B73BD14646EF200A62DBB /* libopencv_highgui220.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B734014646EF100A62DBB /* libopencv_highgui220.a */; };
+		873B73BE14646EF200A62DBB /* libopencv_imgproc220.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B734114646EF100A62DBB /* libopencv_imgproc220.a */; };
+		873B73BF14646EF200A62DBB /* libopencv_lapack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B734214646EF100A62DBB /* libopencv_lapack.a */; };
+		873B73C014646EF200A62DBB /* libopencv_legacy220.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B734314646EF100A62DBB /* libopencv_legacy220.a */; };
+		873B73C114646EF200A62DBB /* libopencv_ml220.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B734414646EF100A62DBB /* libopencv_ml220.a */; };
+		873B73C214646EF200A62DBB /* libopencv_objdetect220.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B734514646EF100A62DBB /* libopencv_objdetect220.a */; };
+		873B73C314646EF200A62DBB /* libopencv_video220.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B734614646EF100A62DBB /* libopencv_video220.a */; };
+		873B73C414646EF200A62DBB /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B734814646EF100A62DBB /* libzlib.a */; };
+		873B73C514646EF200A62DBB /* ofxCvColorImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 873B734B14646EF100A62DBB /* ofxCvColorImage.cpp */; };
+		873B73C614646EF200A62DBB /* ofxCvContourFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 873B734E14646EF100A62DBB /* ofxCvContourFinder.cpp */; };
+		873B73C714646EF200A62DBB /* ofxCvFloatImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 873B735014646EF100A62DBB /* ofxCvFloatImage.cpp */; };
+		873B73C814646EF200A62DBB /* ofxCvGrayscaleImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 873B735214646EF100A62DBB /* ofxCvGrayscaleImage.cpp */; };
+		873B73C914646EF200A62DBB /* ofxCvHaarFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 873B735414646EF100A62DBB /* ofxCvHaarFinder.cpp */; };
+		873B73CA14646EF200A62DBB /* ofxCvImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 873B735614646EF100A62DBB /* ofxCvImage.cpp */; };
+		873B73CB14646EF200A62DBB /* ofxCvShortImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 873B735914646EF100A62DBB /* ofxCvShortImage.cpp */; };
+		8759029413E47EA200DB9466 /* ofxQtVideoSaver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8759028F13E47EA200DB9466 /* ofxQtVideoSaver.cpp */; };
+		875902A513E47EB400DB9466 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8759029E13E47EB400DB9466 /* json_reader.cpp */; };
+		875902A613E47EB400DB9466 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8759029F13E47EB400DB9466 /* json_value.cpp */; };
+		875902A713E47EB400DB9466 /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 875902A113E47EB400DB9466 /* json_writer.cpp */; };
+		879CFBC513D3BD12001EF3F2 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879CFBC413D3BD12001EF3F2 /* ApplicationServices.framework */; };
+		87A6E65313D9418D000252AC /* linux_evdev.c in Sources */ = {isa = PBXBuildFile; fileRef = 87A6E64713D9418D000252AC /* linux_evdev.c */; };
+		87A6E65413D9418D000252AC /* macosx_hidmanager.c in Sources */ = {isa = PBXBuildFile; fileRef = 87A6E64813D9418D000252AC /* macosx_hidmanager.c */; };
+		87A6E65513D9418D000252AC /* macosx_hidutilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 87A6E64913D9418D000252AC /* macosx_hidutilities.c */; };
+		87A6E65613D9418D000252AC /* manymouse.c in Sources */ = {isa = PBXBuildFile; fileRef = 87A6E64A13D9418D000252AC /* manymouse.c */; };
+		87A6E65713D9418D000252AC /* windows_wminput.c in Sources */ = {isa = PBXBuildFile; fileRef = 87A6E64E13D9418D000252AC /* windows_wminput.c */; };
+		87A6E65813D9418D000252AC /* x11_xinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 87A6E64F13D9418D000252AC /* x11_xinput.c */; };
+		87A6E65913D9418D000252AC /* ofxManyMouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87A6E65113D9418D000252AC /* ofxManyMouse.cpp */; };
+		87E8B02E13DF90EE0034E943 /* Segment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87E8B02C13DF90EE0034E943 /* Segment.cpp */; };
+		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
+		E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */; };
+		E45BE97E0E8CC7DD009D7055 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9740E8CC7DD009D7055 /* Carbon.framework */; };
+		E45BE97F0E8CC7DD009D7055 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */; };
+		E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */; };
+		E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9770E8CC7DD009D7055 /* CoreServices.framework */; };
+		E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9790E8CC7DD009D7055 /* OpenGL.framework */; };
+		E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */; };
+		E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424410CC5A17004149E2 /* AppKit.framework */; };
+		E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424510CC5A17004149E2 /* Cocoa.framework */; };
+		E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424610CC5A17004149E2 /* IOKit.framework */; };
+		E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		873B728214646EF000A62DBB /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cv.h; sourceTree = "<group>"; };
+		873B728314646EF000A62DBB /* cv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cv.hpp; sourceTree = "<group>"; };
+		873B728414646EF000A62DBB /* cvaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvaux.h; sourceTree = "<group>"; };
+		873B728514646EF000A62DBB /* cvaux.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cvaux.hpp; sourceTree = "<group>"; };
+		873B728614646EF000A62DBB /* cvwimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvwimage.h; sourceTree = "<group>"; };
+		873B728714646EF000A62DBB /* cxcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cxcore.h; sourceTree = "<group>"; };
+		873B728814646EF000A62DBB /* cxcore.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cxcore.hpp; sourceTree = "<group>"; };
+		873B728914646EF000A62DBB /* cxeigen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cxeigen.hpp; sourceTree = "<group>"; };
+		873B728A14646EF000A62DBB /* cxmisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cxmisc.h; sourceTree = "<group>"; };
+		873B728B14646EF000A62DBB /* highgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = highgui.h; sourceTree = "<group>"; };
+		873B728C14646EF000A62DBB /* ml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ml.h; sourceTree = "<group>"; };
+		873B728F14646EF000A62DBB /* calib3d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = calib3d.hpp; sourceTree = "<group>"; };
+		873B729114646EF000A62DBB /* contrib.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = contrib.hpp; sourceTree = "<group>"; };
+		873B729314646EF000A62DBB /* core.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = core.hpp; sourceTree = "<group>"; };
+		873B729414646EF000A62DBB /* core_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core_c.h; sourceTree = "<group>"; };
+		873B729514646EF000A62DBB /* eigen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = eigen.hpp; sourceTree = "<group>"; };
+		873B729614646EF000A62DBB /* internal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = internal.hpp; sourceTree = "<group>"; };
+		873B729714646EF000A62DBB /* mat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mat.hpp; sourceTree = "<group>"; };
+		873B729814646EF000A62DBB /* operations.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = operations.hpp; sourceTree = "<group>"; };
+		873B729914646EF000A62DBB /* types_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types_c.h; sourceTree = "<group>"; };
+		873B729A14646EF000A62DBB /* version.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = version.hpp; sourceTree = "<group>"; };
+		873B729B14646EF000A62DBB /* wimage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = wimage.hpp; sourceTree = "<group>"; };
+		873B729D14646EF000A62DBB /* features2d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = features2d.hpp; sourceTree = "<group>"; };
+		873B729F14646EF000A62DBB /* all_indices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = all_indices.h; sourceTree = "<group>"; };
+		873B72A014646EF000A62DBB /* allocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allocator.h; sourceTree = "<group>"; };
+		873B72A114646EF000A62DBB /* autotuned_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autotuned_index.h; sourceTree = "<group>"; };
+		873B72A214646EF000A62DBB /* composite_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = composite_index.h; sourceTree = "<group>"; };
+		873B72A314646EF000A62DBB /* dist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dist.h; sourceTree = "<group>"; };
+		873B72A414646EF000A62DBB /* flann.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = flann.hpp; sourceTree = "<group>"; };
+		873B72A514646EF000A62DBB /* flann_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = flann_base.hpp; sourceTree = "<group>"; };
+		873B72A614646EF000A62DBB /* general.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = general.h; sourceTree = "<group>"; };
+		873B72A714646EF000A62DBB /* ground_truth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ground_truth.h; sourceTree = "<group>"; };
+		873B72A814646EF000A62DBB /* hdf5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdf5.h; sourceTree = "<group>"; };
+		873B72A914646EF000A62DBB /* heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heap.h; sourceTree = "<group>"; };
+		873B72AA14646EF000A62DBB /* index_testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = index_testing.h; sourceTree = "<group>"; };
+		873B72AB14646EF000A62DBB /* kdtree_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kdtree_index.h; sourceTree = "<group>"; };
+		873B72AC14646EF000A62DBB /* kmeans_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kmeans_index.h; sourceTree = "<group>"; };
+		873B72AD14646EF000A62DBB /* linear_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linear_index.h; sourceTree = "<group>"; };
+		873B72AE14646EF000A62DBB /* logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logger.h; sourceTree = "<group>"; };
+		873B72AF14646EF000A62DBB /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		873B72B014646EF000A62DBB /* nn_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nn_index.h; sourceTree = "<group>"; };
+		873B72B114646EF000A62DBB /* object_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object_factory.h; sourceTree = "<group>"; };
+		873B72B214646EF000A62DBB /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		873B72B314646EF000A62DBB /* result_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = result_set.h; sourceTree = "<group>"; };
+		873B72B414646EF000A62DBB /* sampling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sampling.h; sourceTree = "<group>"; };
+		873B72B514646EF000A62DBB /* saving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = saving.h; sourceTree = "<group>"; };
+		873B72B614646EF000A62DBB /* simplex_downhill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simplex_downhill.h; sourceTree = "<group>"; };
+		873B72B714646EF000A62DBB /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		873B72B914646EF000A62DBB /* devmem2d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = devmem2d.hpp; sourceTree = "<group>"; };
+		873B72BA14646EF000A62DBB /* gpu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = gpu.hpp; sourceTree = "<group>"; };
+		873B72BB14646EF000A62DBB /* matrix_operations.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = matrix_operations.hpp; sourceTree = "<group>"; };
+		873B72BC14646EF000A62DBB /* stream_accessor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stream_accessor.hpp; sourceTree = "<group>"; };
+		873B72BE14646EF000A62DBB /* highgui.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = highgui.hpp; sourceTree = "<group>"; };
+		873B72BF14646EF000A62DBB /* highgui_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = highgui_c.h; sourceTree = "<group>"; };
+		873B72C114646EF000A62DBB /* imgproc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = imgproc.hpp; sourceTree = "<group>"; };
+		873B72C214646EF000A62DBB /* imgproc_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgproc_c.h; sourceTree = "<group>"; };
+		873B72C314646EF000A62DBB /* types_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types_c.h; sourceTree = "<group>"; };
+		873B72C514646EF000A62DBB /* blobtrack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = blobtrack.hpp; sourceTree = "<group>"; };
+		873B72C614646EF000A62DBB /* compat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = compat.hpp; sourceTree = "<group>"; };
+		873B72C714646EF000A62DBB /* legacy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = legacy.hpp; sourceTree = "<group>"; };
+		873B72C814646EF000A62DBB /* streams.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = streams.hpp; sourceTree = "<group>"; };
+		873B72CA14646EF000A62DBB /* ml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ml.hpp; sourceTree = "<group>"; };
+		873B72CC14646EF000A62DBB /* objdetect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = objdetect.hpp; sourceTree = "<group>"; };
+		873B72CD14646EF000A62DBB /* opencv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = opencv.hpp; sourceTree = "<group>"; };
+		873B72CF14646EF000A62DBB /* background_segm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = background_segm.hpp; sourceTree = "<group>"; };
+		873B72D014646EF000A62DBB /* tracking.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tracking.hpp; sourceTree = "<group>"; };
+		873B72D414646EF000A62DBB /* libopencv_calib3d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_calib3d.a; sourceTree = "<group>"; };
+		873B72D514646EF000A62DBB /* libopencv_contrib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_contrib.a; sourceTree = "<group>"; };
+		873B72D614646EF000A62DBB /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
+		873B72D714646EF000A62DBB /* libopencv_features2d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_features2d.a; sourceTree = "<group>"; };
+		873B72D814646EF000A62DBB /* libopencv_flann.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_flann.a; sourceTree = "<group>"; };
+		873B72D914646EF000A62DBB /* libopencv_haartraining_engine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_haartraining_engine.a; sourceTree = "<group>"; };
+		873B72DA14646EF000A62DBB /* libopencv_highgui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_highgui.a; sourceTree = "<group>"; };
+		873B72DB14646EF000A62DBB /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
+		873B72DC14646EF000A62DBB /* libopencv_lapack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_lapack.a; sourceTree = "<group>"; };
+		873B72DD14646EF000A62DBB /* libopencv_legacy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_legacy.a; sourceTree = "<group>"; };
+		873B72DE14646EF000A62DBB /* libopencv_ml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_ml.a; sourceTree = "<group>"; };
+		873B72DF14646EF000A62DBB /* libopencv_objdetect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_objdetect.a; sourceTree = "<group>"; };
+		873B72E014646EF000A62DBB /* libopencv_video.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_video.a; sourceTree = "<group>"; };
+		873B72E114646EF000A62DBB /* libsorder.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libsorder.make; sourceTree = "<group>"; };
+		873B72E214646EF000A62DBB /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzlib.a; sourceTree = "<group>"; };
+		873B72E414646EF000A62DBB /* libopencv_calib3d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_calib3d.a; sourceTree = "<group>"; };
+		873B72E514646EF000A62DBB /* libopencv_contrib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_contrib.a; sourceTree = "<group>"; };
+		873B72E614646EF000A62DBB /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
+		873B72E714646EF000A62DBB /* libopencv_features2d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_features2d.a; sourceTree = "<group>"; };
+		873B72E814646EF000A62DBB /* libopencv_flann.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_flann.a; sourceTree = "<group>"; };
+		873B72E914646EF000A62DBB /* libopencv_haartraining_engine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_haartraining_engine.a; sourceTree = "<group>"; };
+		873B72EA14646EF000A62DBB /* libopencv_highgui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_highgui.a; sourceTree = "<group>"; };
+		873B72EB14646EF000A62DBB /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
+		873B72EC14646EF000A62DBB /* libopencv_lapack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_lapack.a; sourceTree = "<group>"; };
+		873B72ED14646EF000A62DBB /* libopencv_legacy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_legacy.a; sourceTree = "<group>"; };
+		873B72EE14646EF000A62DBB /* libopencv_ml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_ml.a; sourceTree = "<group>"; };
+		873B72EF14646EF000A62DBB /* libopencv_objdetect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_objdetect.a; sourceTree = "<group>"; };
+		873B72F014646EF000A62DBB /* libopencv_video.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_video.a; sourceTree = "<group>"; };
+		873B72F114646EF000A62DBB /* libsorder.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libsorder.make; sourceTree = "<group>"; };
+		873B72F214646EF000A62DBB /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzlib.a; sourceTree = "<group>"; };
+		873B72F414646EF000A62DBB /* opencv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv.a; sourceTree = "<group>"; };
+		873B72F614646EF000A62DBB /* libopencv_calib3d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_calib3d.a; sourceTree = "<group>"; };
+		873B72F714646EF000A62DBB /* libopencv_contrib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_contrib.a; sourceTree = "<group>"; };
+		873B72F814646EF000A62DBB /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
+		873B72F914646EF000A62DBB /* libopencv_features2d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_features2d.a; sourceTree = "<group>"; };
+		873B72FA14646EF000A62DBB /* libopencv_flann.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_flann.a; sourceTree = "<group>"; };
+		873B72FB14646EF000A62DBB /* libopencv_gpu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_gpu.a; sourceTree = "<group>"; };
+		873B72FC14646EF000A62DBB /* libopencv_haartraining_engine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_haartraining_engine.a; sourceTree = "<group>"; };
+		873B72FD14646EF000A62DBB /* libopencv_highgui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_highgui.a; sourceTree = "<group>"; };
+		873B72FE14646EF000A62DBB /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
+		873B72FF14646EF000A62DBB /* libopencv_lapack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_lapack.a; sourceTree = "<group>"; };
+		873B730014646EF000A62DBB /* libopencv_legacy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_legacy.a; sourceTree = "<group>"; };
+		873B730114646EF000A62DBB /* libopencv_ml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_ml.a; sourceTree = "<group>"; };
+		873B730214646EF000A62DBB /* libopencv_objdetect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_objdetect.a; sourceTree = "<group>"; };
+		873B730314646EF000A62DBB /* libopencv_video.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_video.a; sourceTree = "<group>"; };
+		873B730414646EF100A62DBB /* libsorder.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libsorder.make; sourceTree = "<group>"; };
+		873B730614646EF100A62DBB /* libopencv_calib3d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_calib3d.a; sourceTree = "<group>"; };
+		873B730714646EF100A62DBB /* libopencv_contrib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_contrib.a; sourceTree = "<group>"; };
+		873B730814646EF100A62DBB /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
+		873B730914646EF100A62DBB /* libopencv_features2d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_features2d.a; sourceTree = "<group>"; };
+		873B730A14646EF100A62DBB /* libopencv_flann.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_flann.a; sourceTree = "<group>"; };
+		873B730B14646EF100A62DBB /* libopencv_gpu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_gpu.a; sourceTree = "<group>"; };
+		873B730C14646EF100A62DBB /* libopencv_haartraining_engine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_haartraining_engine.a; sourceTree = "<group>"; };
+		873B730D14646EF100A62DBB /* libopencv_highgui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_highgui.a; sourceTree = "<group>"; };
+		873B730E14646EF100A62DBB /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
+		873B730F14646EF100A62DBB /* libopencv_lapack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_lapack.a; sourceTree = "<group>"; };
+		873B731014646EF100A62DBB /* libopencv_legacy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_legacy.a; sourceTree = "<group>"; };
+		873B731114646EF100A62DBB /* libopencv_ml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_ml.a; sourceTree = "<group>"; };
+		873B731214646EF100A62DBB /* libopencv_objdetect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_objdetect.a; sourceTree = "<group>"; };
+		873B731314646EF100A62DBB /* libopencv_video.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_video.a; sourceTree = "<group>"; };
+		873B731414646EF100A62DBB /* libsorder.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libsorder.make; sourceTree = "<group>"; };
+		873B731614646EF100A62DBB /* opencv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv.a; sourceTree = "<group>"; };
+		873B731814646EF100A62DBB /* opencv_calib3d220.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_calib3d220.lib; sourceTree = "<group>"; };
+		873B731914646EF100A62DBB /* opencv_calib3d220d.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_calib3d220d.lib; sourceTree = "<group>"; };
+		873B731A14646EF100A62DBB /* opencv_contrib220.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_contrib220.lib; sourceTree = "<group>"; };
+		873B731B14646EF100A62DBB /* opencv_contrib220d.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_contrib220d.lib; sourceTree = "<group>"; };
+		873B731C14646EF100A62DBB /* opencv_core220.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_core220.lib; sourceTree = "<group>"; };
+		873B731D14646EF100A62DBB /* opencv_core220d.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_core220d.lib; sourceTree = "<group>"; };
+		873B731E14646EF100A62DBB /* opencv_features2d220.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_features2d220.lib; sourceTree = "<group>"; };
+		873B731F14646EF100A62DBB /* opencv_features2d220d.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_features2d220d.lib; sourceTree = "<group>"; };
+		873B732014646EF100A62DBB /* opencv_flann220.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_flann220.lib; sourceTree = "<group>"; };
+		873B732114646EF100A62DBB /* opencv_flann220d.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_flann220d.lib; sourceTree = "<group>"; };
+		873B732214646EF100A62DBB /* opencv_gpu220.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_gpu220.lib; sourceTree = "<group>"; };
+		873B732314646EF100A62DBB /* opencv_gpu220d.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_gpu220d.lib; sourceTree = "<group>"; };
+		873B732414646EF100A62DBB /* opencv_haartraining_engine.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_haartraining_engine.lib; sourceTree = "<group>"; };
+		873B732514646EF100A62DBB /* opencv_haartraining_engined.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_haartraining_engined.lib; sourceTree = "<group>"; };
+		873B732614646EF100A62DBB /* opencv_highgui220.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_highgui220.lib; sourceTree = "<group>"; };
+		873B732714646EF100A62DBB /* opencv_highgui220d.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_highgui220d.lib; sourceTree = "<group>"; };
+		873B732814646EF100A62DBB /* opencv_imgproc220.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_imgproc220.lib; sourceTree = "<group>"; };
+		873B732914646EF100A62DBB /* opencv_imgproc220d.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_imgproc220d.lib; sourceTree = "<group>"; };
+		873B732A14646EF100A62DBB /* opencv_lapack.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_lapack.lib; sourceTree = "<group>"; };
+		873B732B14646EF100A62DBB /* opencv_lapackd.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_lapackd.lib; sourceTree = "<group>"; };
+		873B732C14646EF100A62DBB /* opencv_legacy220.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_legacy220.lib; sourceTree = "<group>"; };
+		873B732D14646EF100A62DBB /* opencv_legacy220d.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_legacy220d.lib; sourceTree = "<group>"; };
+		873B732E14646EF100A62DBB /* opencv_ml220.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_ml220.lib; sourceTree = "<group>"; };
+		873B732F14646EF100A62DBB /* opencv_ml220d.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_ml220d.lib; sourceTree = "<group>"; };
+		873B733014646EF100A62DBB /* opencv_objdetect220.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_objdetect220.lib; sourceTree = "<group>"; };
+		873B733114646EF100A62DBB /* opencv_objdetect220d.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_objdetect220d.lib; sourceTree = "<group>"; };
+		873B733214646EF100A62DBB /* opencv_ts220.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_ts220.lib; sourceTree = "<group>"; };
+		873B733314646EF100A62DBB /* opencv_ts220d.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_ts220d.lib; sourceTree = "<group>"; };
+		873B733414646EF100A62DBB /* opencv_video220.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_video220.lib; sourceTree = "<group>"; };
+		873B733514646EF100A62DBB /* opencv_video220d.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv_video220d.lib; sourceTree = "<group>"; };
+		873B733614646EF100A62DBB /* zlib.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = zlib.lib; sourceTree = "<group>"; };
+		873B733714646EF100A62DBB /* zlibd.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = zlibd.lib; sourceTree = "<group>"; };
+		873B733914646EF100A62DBB /* libopencv_calib3d220.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_calib3d220.a; sourceTree = "<group>"; };
+		873B733A14646EF100A62DBB /* libopencv_contrib220.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_contrib220.a; sourceTree = "<group>"; };
+		873B733B14646EF100A62DBB /* libopencv_core220.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core220.a; sourceTree = "<group>"; };
+		873B733C14646EF100A62DBB /* libopencv_features2d220.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_features2d220.a; sourceTree = "<group>"; };
+		873B733D14646EF100A62DBB /* libopencv_flann220.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_flann220.a; sourceTree = "<group>"; };
+		873B733E14646EF100A62DBB /* libopencv_gpu220.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_gpu220.a; sourceTree = "<group>"; };
+		873B733F14646EF100A62DBB /* libopencv_haartraining_engine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_haartraining_engine.a; sourceTree = "<group>"; };
+		873B734014646EF100A62DBB /* libopencv_highgui220.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_highgui220.a; sourceTree = "<group>"; };
+		873B734114646EF100A62DBB /* libopencv_imgproc220.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc220.a; sourceTree = "<group>"; };
+		873B734214646EF100A62DBB /* libopencv_lapack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_lapack.a; sourceTree = "<group>"; };
+		873B734314646EF100A62DBB /* libopencv_legacy220.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_legacy220.a; sourceTree = "<group>"; };
+		873B734414646EF100A62DBB /* libopencv_ml220.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_ml220.a; sourceTree = "<group>"; };
+		873B734514646EF100A62DBB /* libopencv_objdetect220.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_objdetect220.a; sourceTree = "<group>"; };
+		873B734614646EF100A62DBB /* libopencv_video220.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_video220.a; sourceTree = "<group>"; };
+		873B734714646EF100A62DBB /* libsorder.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libsorder.make; sourceTree = "<group>"; };
+		873B734814646EF100A62DBB /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzlib.a; sourceTree = "<group>"; };
+		873B734A14646EF100A62DBB /* ofxCvBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvBlob.h; sourceTree = "<group>"; };
+		873B734B14646EF100A62DBB /* ofxCvColorImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvColorImage.cpp; sourceTree = "<group>"; };
+		873B734C14646EF100A62DBB /* ofxCvColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvColorImage.h; sourceTree = "<group>"; };
+		873B734D14646EF100A62DBB /* ofxCvConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvConstants.h; sourceTree = "<group>"; };
+		873B734E14646EF100A62DBB /* ofxCvContourFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvContourFinder.cpp; sourceTree = "<group>"; };
+		873B734F14646EF100A62DBB /* ofxCvContourFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvContourFinder.h; sourceTree = "<group>"; };
+		873B735014646EF100A62DBB /* ofxCvFloatImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvFloatImage.cpp; sourceTree = "<group>"; };
+		873B735114646EF100A62DBB /* ofxCvFloatImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvFloatImage.h; sourceTree = "<group>"; };
+		873B735214646EF100A62DBB /* ofxCvGrayscaleImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvGrayscaleImage.cpp; sourceTree = "<group>"; };
+		873B735314646EF100A62DBB /* ofxCvGrayscaleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvGrayscaleImage.h; sourceTree = "<group>"; };
+		873B735414646EF100A62DBB /* ofxCvHaarFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvHaarFinder.cpp; sourceTree = "<group>"; };
+		873B735514646EF100A62DBB /* ofxCvHaarFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvHaarFinder.h; sourceTree = "<group>"; };
+		873B735614646EF100A62DBB /* ofxCvImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvImage.cpp; sourceTree = "<group>"; };
+		873B735714646EF100A62DBB /* ofxCvImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvImage.h; sourceTree = "<group>"; };
+		873B735814646EF100A62DBB /* ofxCvMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvMain.h; sourceTree = "<group>"; };
+		873B735914646EF100A62DBB /* ofxCvShortImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvShortImage.cpp; sourceTree = "<group>"; };
+		873B735A14646EF100A62DBB /* ofxCvShortImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvShortImage.h; sourceTree = "<group>"; };
+		873B735B14646EF100A62DBB /* ofxOpenCv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxOpenCv.h; sourceTree = "<group>"; };
+		8759028F13E47EA200DB9466 /* ofxQtVideoSaver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxQtVideoSaver.cpp; sourceTree = "<group>"; };
+		8759029013E47EA200DB9466 /* ofxQtVideoSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxQtVideoSaver.h; sourceTree = "<group>"; };
+		8759029613E47EB400DB9466 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
+		8759029713E47EB400DB9466 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		8759029813E47EB400DB9466 /* features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = features.h; sourceTree = "<group>"; };
+		8759029913E47EB400DB9466 /* forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forwards.h; sourceTree = "<group>"; };
+		8759029A13E47EB400DB9466 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		8759029B13E47EB400DB9466 /* json_batchallocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_batchallocator.h; sourceTree = "<group>"; };
+		8759029C13E47EB400DB9466 /* json_internalarray.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalarray.inl; sourceTree = "<group>"; };
+		8759029D13E47EB400DB9466 /* json_internalmap.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalmap.inl; sourceTree = "<group>"; };
+		8759029E13E47EB400DB9466 /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_reader.cpp; sourceTree = "<group>"; };
+		8759029F13E47EB400DB9466 /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_value.cpp; sourceTree = "<group>"; };
+		875902A013E47EB400DB9466 /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_valueiterator.inl; sourceTree = "<group>"; };
+		875902A113E47EB400DB9466 /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_writer.cpp; sourceTree = "<group>"; };
+		875902A213E47EB400DB9466 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		875902A313E47EB400DB9466 /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
+		875902A413E47EB400DB9466 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		879CFBC413D3BD12001EF3F2 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework; sourceTree = DEVELOPER_DIR; };
+		87A6E64713D9418D000252AC /* linux_evdev.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linux_evdev.c; sourceTree = "<group>"; };
+		87A6E64813D9418D000252AC /* macosx_hidmanager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = macosx_hidmanager.c; sourceTree = "<group>"; };
+		87A6E64913D9418D000252AC /* macosx_hidutilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = macosx_hidutilities.c; sourceTree = "<group>"; };
+		87A6E64A13D9418D000252AC /* manymouse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = manymouse.c; sourceTree = "<group>"; };
+		87A6E64B13D9418D000252AC /* manymouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = manymouse.h; sourceTree = "<group>"; };
+		87A6E64E13D9418D000252AC /* windows_wminput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = windows_wminput.c; sourceTree = "<group>"; };
+		87A6E64F13D9418D000252AC /* x11_xinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x11_xinput.c; sourceTree = "<group>"; };
+		87A6E65113D9418D000252AC /* ofxManyMouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxManyMouse.cpp; sourceTree = "<group>"; };
+		87A6E65213D9418D000252AC /* ofxManyMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxManyMouse.h; sourceTree = "<group>"; };
+		87E8B02C13DF90EE0034E943 /* Segment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Segment.cpp; sourceTree = "<group>"; };
+		87E8B02D13DF90EE0034E943 /* Segment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segment.h; sourceTree = "<group>"; };
+		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		E45BE9740E8CC7DD009D7055 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		E45BE9770E8CC7DD009D7055 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		E45BE9790E8CC7DD009D7055 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		E4B69B5B0A3A1756003C02F2 /* VideoNinjaDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoNinjaDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = testApp.cpp; path = src/testApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = testApp.h; path = src/testApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4C2424410CC5A17004149E2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		E4C2424510CC5A17004149E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		E4C2424610CC5A17004149E2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */,
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
+				E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */,
+				E45BE97E0E8CC7DD009D7055 /* Carbon.framework in Frameworks */,
+				E45BE97F0E8CC7DD009D7055 /* CoreAudio.framework in Frameworks */,
+				E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */,
+				E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */,
+				E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */,
+				E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */,
+				E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */,
+				E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */,
+				E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */,
+				879CFBC513D3BD12001EF3F2 /* ApplicationServices.framework in Frameworks */,
+				873B735C14646EF100A62DBB /* libopencv_calib3d.a in Frameworks */,
+				873B735D14646EF100A62DBB /* libopencv_contrib.a in Frameworks */,
+				873B735E14646EF100A62DBB /* libopencv_core.a in Frameworks */,
+				873B735F14646EF100A62DBB /* libopencv_features2d.a in Frameworks */,
+				873B736014646EF100A62DBB /* libopencv_flann.a in Frameworks */,
+				873B736114646EF100A62DBB /* libopencv_haartraining_engine.a in Frameworks */,
+				873B736214646EF100A62DBB /* libopencv_highgui.a in Frameworks */,
+				873B736314646EF100A62DBB /* libopencv_imgproc.a in Frameworks */,
+				873B736414646EF100A62DBB /* libopencv_lapack.a in Frameworks */,
+				873B736514646EF100A62DBB /* libopencv_legacy.a in Frameworks */,
+				873B736614646EF100A62DBB /* libopencv_ml.a in Frameworks */,
+				873B736714646EF100A62DBB /* libopencv_objdetect.a in Frameworks */,
+				873B736814646EF100A62DBB /* libopencv_video.a in Frameworks */,
+				873B736914646EF100A62DBB /* libzlib.a in Frameworks */,
+				873B736A14646EF100A62DBB /* libopencv_calib3d.a in Frameworks */,
+				873B736B14646EF100A62DBB /* libopencv_contrib.a in Frameworks */,
+				873B736C14646EF100A62DBB /* libopencv_core.a in Frameworks */,
+				873B736D14646EF100A62DBB /* libopencv_features2d.a in Frameworks */,
+				873B736E14646EF100A62DBB /* libopencv_flann.a in Frameworks */,
+				873B736F14646EF100A62DBB /* libopencv_haartraining_engine.a in Frameworks */,
+				873B737014646EF100A62DBB /* libopencv_highgui.a in Frameworks */,
+				873B737114646EF100A62DBB /* libopencv_imgproc.a in Frameworks */,
+				873B737214646EF100A62DBB /* libopencv_lapack.a in Frameworks */,
+				873B737314646EF100A62DBB /* libopencv_legacy.a in Frameworks */,
+				873B737414646EF100A62DBB /* libopencv_ml.a in Frameworks */,
+				873B737514646EF100A62DBB /* libopencv_objdetect.a in Frameworks */,
+				873B737614646EF100A62DBB /* libopencv_video.a in Frameworks */,
+				873B737714646EF100A62DBB /* libzlib.a in Frameworks */,
+				873B737814646EF100A62DBB /* opencv.a in Frameworks */,
+				873B737914646EF100A62DBB /* libopencv_calib3d.a in Frameworks */,
+				873B737A14646EF100A62DBB /* libopencv_contrib.a in Frameworks */,
+				873B737B14646EF100A62DBB /* libopencv_core.a in Frameworks */,
+				873B737C14646EF100A62DBB /* libopencv_features2d.a in Frameworks */,
+				873B737D14646EF100A62DBB /* libopencv_flann.a in Frameworks */,
+				873B737E14646EF100A62DBB /* libopencv_gpu.a in Frameworks */,
+				873B737F14646EF100A62DBB /* libopencv_haartraining_engine.a in Frameworks */,
+				873B738014646EF100A62DBB /* libopencv_highgui.a in Frameworks */,
+				873B738114646EF100A62DBB /* libopencv_imgproc.a in Frameworks */,
+				873B738214646EF100A62DBB /* libopencv_lapack.a in Frameworks */,
+				873B738314646EF100A62DBB /* libopencv_legacy.a in Frameworks */,
+				873B738414646EF100A62DBB /* libopencv_ml.a in Frameworks */,
+				873B738514646EF100A62DBB /* libopencv_objdetect.a in Frameworks */,
+				873B738614646EF100A62DBB /* libopencv_video.a in Frameworks */,
+				873B738714646EF100A62DBB /* libopencv_calib3d.a in Frameworks */,
+				873B738814646EF100A62DBB /* libopencv_contrib.a in Frameworks */,
+				873B738914646EF100A62DBB /* libopencv_core.a in Frameworks */,
+				873B738A14646EF100A62DBB /* libopencv_features2d.a in Frameworks */,
+				873B738B14646EF100A62DBB /* libopencv_flann.a in Frameworks */,
+				873B738C14646EF100A62DBB /* libopencv_gpu.a in Frameworks */,
+				873B738D14646EF100A62DBB /* libopencv_haartraining_engine.a in Frameworks */,
+				873B738E14646EF100A62DBB /* libopencv_highgui.a in Frameworks */,
+				873B738F14646EF100A62DBB /* libopencv_imgproc.a in Frameworks */,
+				873B739014646EF100A62DBB /* libopencv_lapack.a in Frameworks */,
+				873B739114646EF100A62DBB /* libopencv_legacy.a in Frameworks */,
+				873B739214646EF100A62DBB /* libopencv_ml.a in Frameworks */,
+				873B739314646EF200A62DBB /* libopencv_objdetect.a in Frameworks */,
+				873B739414646EF200A62DBB /* libopencv_video.a in Frameworks */,
+				873B739514646EF200A62DBB /* opencv.a in Frameworks */,
+				873B739614646EF200A62DBB /* opencv_calib3d220.lib in Frameworks */,
+				873B739714646EF200A62DBB /* opencv_calib3d220d.lib in Frameworks */,
+				873B739814646EF200A62DBB /* opencv_contrib220.lib in Frameworks */,
+				873B739914646EF200A62DBB /* opencv_contrib220d.lib in Frameworks */,
+				873B739A14646EF200A62DBB /* opencv_core220.lib in Frameworks */,
+				873B739B14646EF200A62DBB /* opencv_core220d.lib in Frameworks */,
+				873B739C14646EF200A62DBB /* opencv_features2d220.lib in Frameworks */,
+				873B739D14646EF200A62DBB /* opencv_features2d220d.lib in Frameworks */,
+				873B739E14646EF200A62DBB /* opencv_flann220.lib in Frameworks */,
+				873B739F14646EF200A62DBB /* opencv_flann220d.lib in Frameworks */,
+				873B73A014646EF200A62DBB /* opencv_gpu220.lib in Frameworks */,
+				873B73A114646EF200A62DBB /* opencv_gpu220d.lib in Frameworks */,
+				873B73A214646EF200A62DBB /* opencv_haartraining_engine.lib in Frameworks */,
+				873B73A314646EF200A62DBB /* opencv_haartraining_engined.lib in Frameworks */,
+				873B73A414646EF200A62DBB /* opencv_highgui220.lib in Frameworks */,
+				873B73A514646EF200A62DBB /* opencv_highgui220d.lib in Frameworks */,
+				873B73A614646EF200A62DBB /* opencv_imgproc220.lib in Frameworks */,
+				873B73A714646EF200A62DBB /* opencv_imgproc220d.lib in Frameworks */,
+				873B73A814646EF200A62DBB /* opencv_lapack.lib in Frameworks */,
+				873B73A914646EF200A62DBB /* opencv_lapackd.lib in Frameworks */,
+				873B73AA14646EF200A62DBB /* opencv_legacy220.lib in Frameworks */,
+				873B73AB14646EF200A62DBB /* opencv_legacy220d.lib in Frameworks */,
+				873B73AC14646EF200A62DBB /* opencv_ml220.lib in Frameworks */,
+				873B73AD14646EF200A62DBB /* opencv_ml220d.lib in Frameworks */,
+				873B73AE14646EF200A62DBB /* opencv_objdetect220.lib in Frameworks */,
+				873B73AF14646EF200A62DBB /* opencv_objdetect220d.lib in Frameworks */,
+				873B73B014646EF200A62DBB /* opencv_ts220.lib in Frameworks */,
+				873B73B114646EF200A62DBB /* opencv_ts220d.lib in Frameworks */,
+				873B73B214646EF200A62DBB /* opencv_video220.lib in Frameworks */,
+				873B73B314646EF200A62DBB /* opencv_video220d.lib in Frameworks */,
+				873B73B414646EF200A62DBB /* zlib.lib in Frameworks */,
+				873B73B514646EF200A62DBB /* zlibd.lib in Frameworks */,
+				873B73B614646EF200A62DBB /* libopencv_calib3d220.a in Frameworks */,
+				873B73B714646EF200A62DBB /* libopencv_contrib220.a in Frameworks */,
+				873B73B814646EF200A62DBB /* libopencv_core220.a in Frameworks */,
+				873B73B914646EF200A62DBB /* libopencv_features2d220.a in Frameworks */,
+				873B73BA14646EF200A62DBB /* libopencv_flann220.a in Frameworks */,
+				873B73BB14646EF200A62DBB /* libopencv_gpu220.a in Frameworks */,
+				873B73BC14646EF200A62DBB /* libopencv_haartraining_engine.a in Frameworks */,
+				873B73BD14646EF200A62DBB /* libopencv_highgui220.a in Frameworks */,
+				873B73BE14646EF200A62DBB /* libopencv_imgproc220.a in Frameworks */,
+				873B73BF14646EF200A62DBB /* libopencv_lapack.a in Frameworks */,
+				873B73C014646EF200A62DBB /* libopencv_legacy220.a in Frameworks */,
+				873B73C114646EF200A62DBB /* libopencv_ml220.a in Frameworks */,
+				873B73C214646EF200A62DBB /* libopencv_objdetect220.a in Frameworks */,
+				873B73C314646EF200A62DBB /* libopencv_video220.a in Frameworks */,
+				873B73C414646EF200A62DBB /* libzlib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		873B727C14646EF000A62DBB /* ofxOpenCv */ = {
+			isa = PBXGroup;
+			children = (
+				873B727E14646EF000A62DBB /* libs */,
+				873B734914646EF100A62DBB /* src */,
+			);
+			name = ofxOpenCv;
+			path = ../../../addons/ofxOpenCv;
+			sourceTree = "<group>";
+		};
+		873B727E14646EF000A62DBB /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				873B727F14646EF000A62DBB /* opencv */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		873B727F14646EF000A62DBB /* opencv */ = {
+			isa = PBXGroup;
+			children = (
+				873B728014646EF000A62DBB /* include */,
+				873B72D114646EF000A62DBB /* lib */,
+			);
+			path = opencv;
+			sourceTree = "<group>";
+		};
+		873B728014646EF000A62DBB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				873B728114646EF000A62DBB /* opencv */,
+				873B728D14646EF000A62DBB /* opencv2 */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		873B728114646EF000A62DBB /* opencv */ = {
+			isa = PBXGroup;
+			children = (
+				873B728214646EF000A62DBB /* cv.h */,
+				873B728314646EF000A62DBB /* cv.hpp */,
+				873B728414646EF000A62DBB /* cvaux.h */,
+				873B728514646EF000A62DBB /* cvaux.hpp */,
+				873B728614646EF000A62DBB /* cvwimage.h */,
+				873B728714646EF000A62DBB /* cxcore.h */,
+				873B728814646EF000A62DBB /* cxcore.hpp */,
+				873B728914646EF000A62DBB /* cxeigen.hpp */,
+				873B728A14646EF000A62DBB /* cxmisc.h */,
+				873B728B14646EF000A62DBB /* highgui.h */,
+				873B728C14646EF000A62DBB /* ml.h */,
+			);
+			path = opencv;
+			sourceTree = "<group>";
+		};
+		873B728D14646EF000A62DBB /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				873B728E14646EF000A62DBB /* calib3d */,
+				873B729014646EF000A62DBB /* contrib */,
+				873B729214646EF000A62DBB /* core */,
+				873B729C14646EF000A62DBB /* features2d */,
+				873B729E14646EF000A62DBB /* flann */,
+				873B72B814646EF000A62DBB /* gpu */,
+				873B72BD14646EF000A62DBB /* highgui */,
+				873B72C014646EF000A62DBB /* imgproc */,
+				873B72C414646EF000A62DBB /* legacy */,
+				873B72C914646EF000A62DBB /* ml */,
+				873B72CB14646EF000A62DBB /* objdetect */,
+				873B72CD14646EF000A62DBB /* opencv.hpp */,
+				873B72CE14646EF000A62DBB /* video */,
+			);
+			path = opencv2;
+			sourceTree = "<group>";
+		};
+		873B728E14646EF000A62DBB /* calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				873B728F14646EF000A62DBB /* calib3d.hpp */,
+			);
+			path = calib3d;
+			sourceTree = "<group>";
+		};
+		873B729014646EF000A62DBB /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				873B729114646EF000A62DBB /* contrib.hpp */,
+			);
+			path = contrib;
+			sourceTree = "<group>";
+		};
+		873B729214646EF000A62DBB /* core */ = {
+			isa = PBXGroup;
+			children = (
+				873B729314646EF000A62DBB /* core.hpp */,
+				873B729414646EF000A62DBB /* core_c.h */,
+				873B729514646EF000A62DBB /* eigen.hpp */,
+				873B729614646EF000A62DBB /* internal.hpp */,
+				873B729714646EF000A62DBB /* mat.hpp */,
+				873B729814646EF000A62DBB /* operations.hpp */,
+				873B729914646EF000A62DBB /* types_c.h */,
+				873B729A14646EF000A62DBB /* version.hpp */,
+				873B729B14646EF000A62DBB /* wimage.hpp */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		873B729C14646EF000A62DBB /* features2d */ = {
+			isa = PBXGroup;
+			children = (
+				873B729D14646EF000A62DBB /* features2d.hpp */,
+			);
+			path = features2d;
+			sourceTree = "<group>";
+		};
+		873B729E14646EF000A62DBB /* flann */ = {
+			isa = PBXGroup;
+			children = (
+				873B729F14646EF000A62DBB /* all_indices.h */,
+				873B72A014646EF000A62DBB /* allocator.h */,
+				873B72A114646EF000A62DBB /* autotuned_index.h */,
+				873B72A214646EF000A62DBB /* composite_index.h */,
+				873B72A314646EF000A62DBB /* dist.h */,
+				873B72A414646EF000A62DBB /* flann.hpp */,
+				873B72A514646EF000A62DBB /* flann_base.hpp */,
+				873B72A614646EF000A62DBB /* general.h */,
+				873B72A714646EF000A62DBB /* ground_truth.h */,
+				873B72A814646EF000A62DBB /* hdf5.h */,
+				873B72A914646EF000A62DBB /* heap.h */,
+				873B72AA14646EF000A62DBB /* index_testing.h */,
+				873B72AB14646EF000A62DBB /* kdtree_index.h */,
+				873B72AC14646EF000A62DBB /* kmeans_index.h */,
+				873B72AD14646EF000A62DBB /* linear_index.h */,
+				873B72AE14646EF000A62DBB /* logger.h */,
+				873B72AF14646EF000A62DBB /* matrix.h */,
+				873B72B014646EF000A62DBB /* nn_index.h */,
+				873B72B114646EF000A62DBB /* object_factory.h */,
+				873B72B214646EF000A62DBB /* random.h */,
+				873B72B314646EF000A62DBB /* result_set.h */,
+				873B72B414646EF000A62DBB /* sampling.h */,
+				873B72B514646EF000A62DBB /* saving.h */,
+				873B72B614646EF000A62DBB /* simplex_downhill.h */,
+				873B72B714646EF000A62DBB /* timer.h */,
+			);
+			path = flann;
+			sourceTree = "<group>";
+		};
+		873B72B814646EF000A62DBB /* gpu */ = {
+			isa = PBXGroup;
+			children = (
+				873B72B914646EF000A62DBB /* devmem2d.hpp */,
+				873B72BA14646EF000A62DBB /* gpu.hpp */,
+				873B72BB14646EF000A62DBB /* matrix_operations.hpp */,
+				873B72BC14646EF000A62DBB /* stream_accessor.hpp */,
+			);
+			path = gpu;
+			sourceTree = "<group>";
+		};
+		873B72BD14646EF000A62DBB /* highgui */ = {
+			isa = PBXGroup;
+			children = (
+				873B72BE14646EF000A62DBB /* highgui.hpp */,
+				873B72BF14646EF000A62DBB /* highgui_c.h */,
+			);
+			path = highgui;
+			sourceTree = "<group>";
+		};
+		873B72C014646EF000A62DBB /* imgproc */ = {
+			isa = PBXGroup;
+			children = (
+				873B72C114646EF000A62DBB /* imgproc.hpp */,
+				873B72C214646EF000A62DBB /* imgproc_c.h */,
+				873B72C314646EF000A62DBB /* types_c.h */,
+			);
+			path = imgproc;
+			sourceTree = "<group>";
+		};
+		873B72C414646EF000A62DBB /* legacy */ = {
+			isa = PBXGroup;
+			children = (
+				873B72C514646EF000A62DBB /* blobtrack.hpp */,
+				873B72C614646EF000A62DBB /* compat.hpp */,
+				873B72C714646EF000A62DBB /* legacy.hpp */,
+				873B72C814646EF000A62DBB /* streams.hpp */,
+			);
+			path = legacy;
+			sourceTree = "<group>";
+		};
+		873B72C914646EF000A62DBB /* ml */ = {
+			isa = PBXGroup;
+			children = (
+				873B72CA14646EF000A62DBB /* ml.hpp */,
+			);
+			path = ml;
+			sourceTree = "<group>";
+		};
+		873B72CB14646EF000A62DBB /* objdetect */ = {
+			isa = PBXGroup;
+			children = (
+				873B72CC14646EF000A62DBB /* objdetect.hpp */,
+			);
+			path = objdetect;
+			sourceTree = "<group>";
+		};
+		873B72CE14646EF000A62DBB /* video */ = {
+			isa = PBXGroup;
+			children = (
+				873B72CF14646EF000A62DBB /* background_segm.hpp */,
+				873B72D014646EF000A62DBB /* tracking.hpp */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		873B72D114646EF000A62DBB /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				873B72D214646EF000A62DBB /* android */,
+				873B72F314646EF000A62DBB /* iphone */,
+				873B72F514646EF000A62DBB /* linux */,
+				873B730514646EF100A62DBB /* linux64 */,
+				873B731514646EF100A62DBB /* osx */,
+				873B731714646EF100A62DBB /* vs2010 */,
+				873B733814646EF100A62DBB /* win_cb */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		873B72D214646EF000A62DBB /* android */ = {
+			isa = PBXGroup;
+			children = (
+				873B72D314646EF000A62DBB /* armeabi */,
+				873B72E314646EF000A62DBB /* armeabi-v7a */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		873B72D314646EF000A62DBB /* armeabi */ = {
+			isa = PBXGroup;
+			children = (
+				873B72D414646EF000A62DBB /* libopencv_calib3d.a */,
+				873B72D514646EF000A62DBB /* libopencv_contrib.a */,
+				873B72D614646EF000A62DBB /* libopencv_core.a */,
+				873B72D714646EF000A62DBB /* libopencv_features2d.a */,
+				873B72D814646EF000A62DBB /* libopencv_flann.a */,
+				873B72D914646EF000A62DBB /* libopencv_haartraining_engine.a */,
+				873B72DA14646EF000A62DBB /* libopencv_highgui.a */,
+				873B72DB14646EF000A62DBB /* libopencv_imgproc.a */,
+				873B72DC14646EF000A62DBB /* libopencv_lapack.a */,
+				873B72DD14646EF000A62DBB /* libopencv_legacy.a */,
+				873B72DE14646EF000A62DBB /* libopencv_ml.a */,
+				873B72DF14646EF000A62DBB /* libopencv_objdetect.a */,
+				873B72E014646EF000A62DBB /* libopencv_video.a */,
+				873B72E114646EF000A62DBB /* libsorder.make */,
+				873B72E214646EF000A62DBB /* libzlib.a */,
+			);
+			path = armeabi;
+			sourceTree = "<group>";
+		};
+		873B72E314646EF000A62DBB /* armeabi-v7a */ = {
+			isa = PBXGroup;
+			children = (
+				873B72E414646EF000A62DBB /* libopencv_calib3d.a */,
+				873B72E514646EF000A62DBB /* libopencv_contrib.a */,
+				873B72E614646EF000A62DBB /* libopencv_core.a */,
+				873B72E714646EF000A62DBB /* libopencv_features2d.a */,
+				873B72E814646EF000A62DBB /* libopencv_flann.a */,
+				873B72E914646EF000A62DBB /* libopencv_haartraining_engine.a */,
+				873B72EA14646EF000A62DBB /* libopencv_highgui.a */,
+				873B72EB14646EF000A62DBB /* libopencv_imgproc.a */,
+				873B72EC14646EF000A62DBB /* libopencv_lapack.a */,
+				873B72ED14646EF000A62DBB /* libopencv_legacy.a */,
+				873B72EE14646EF000A62DBB /* libopencv_ml.a */,
+				873B72EF14646EF000A62DBB /* libopencv_objdetect.a */,
+				873B72F014646EF000A62DBB /* libopencv_video.a */,
+				873B72F114646EF000A62DBB /* libsorder.make */,
+				873B72F214646EF000A62DBB /* libzlib.a */,
+			);
+			path = "armeabi-v7a";
+			sourceTree = "<group>";
+		};
+		873B72F314646EF000A62DBB /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				873B72F414646EF000A62DBB /* opencv.a */,
+			);
+			path = iphone;
+			sourceTree = "<group>";
+		};
+		873B72F514646EF000A62DBB /* linux */ = {
+			isa = PBXGroup;
+			children = (
+				873B72F614646EF000A62DBB /* libopencv_calib3d.a */,
+				873B72F714646EF000A62DBB /* libopencv_contrib.a */,
+				873B72F814646EF000A62DBB /* libopencv_core.a */,
+				873B72F914646EF000A62DBB /* libopencv_features2d.a */,
+				873B72FA14646EF000A62DBB /* libopencv_flann.a */,
+				873B72FB14646EF000A62DBB /* libopencv_gpu.a */,
+				873B72FC14646EF000A62DBB /* libopencv_haartraining_engine.a */,
+				873B72FD14646EF000A62DBB /* libopencv_highgui.a */,
+				873B72FE14646EF000A62DBB /* libopencv_imgproc.a */,
+				873B72FF14646EF000A62DBB /* libopencv_lapack.a */,
+				873B730014646EF000A62DBB /* libopencv_legacy.a */,
+				873B730114646EF000A62DBB /* libopencv_ml.a */,
+				873B730214646EF000A62DBB /* libopencv_objdetect.a */,
+				873B730314646EF000A62DBB /* libopencv_video.a */,
+				873B730414646EF100A62DBB /* libsorder.make */,
+			);
+			path = linux;
+			sourceTree = "<group>";
+		};
+		873B730514646EF100A62DBB /* linux64 */ = {
+			isa = PBXGroup;
+			children = (
+				873B730614646EF100A62DBB /* libopencv_calib3d.a */,
+				873B730714646EF100A62DBB /* libopencv_contrib.a */,
+				873B730814646EF100A62DBB /* libopencv_core.a */,
+				873B730914646EF100A62DBB /* libopencv_features2d.a */,
+				873B730A14646EF100A62DBB /* libopencv_flann.a */,
+				873B730B14646EF100A62DBB /* libopencv_gpu.a */,
+				873B730C14646EF100A62DBB /* libopencv_haartraining_engine.a */,
+				873B730D14646EF100A62DBB /* libopencv_highgui.a */,
+				873B730E14646EF100A62DBB /* libopencv_imgproc.a */,
+				873B730F14646EF100A62DBB /* libopencv_lapack.a */,
+				873B731014646EF100A62DBB /* libopencv_legacy.a */,
+				873B731114646EF100A62DBB /* libopencv_ml.a */,
+				873B731214646EF100A62DBB /* libopencv_objdetect.a */,
+				873B731314646EF100A62DBB /* libopencv_video.a */,
+				873B731414646EF100A62DBB /* libsorder.make */,
+			);
+			path = linux64;
+			sourceTree = "<group>";
+		};
+		873B731514646EF100A62DBB /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				873B731614646EF100A62DBB /* opencv.a */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		873B731714646EF100A62DBB /* vs2010 */ = {
+			isa = PBXGroup;
+			children = (
+				873B731814646EF100A62DBB /* opencv_calib3d220.lib */,
+				873B731914646EF100A62DBB /* opencv_calib3d220d.lib */,
+				873B731A14646EF100A62DBB /* opencv_contrib220.lib */,
+				873B731B14646EF100A62DBB /* opencv_contrib220d.lib */,
+				873B731C14646EF100A62DBB /* opencv_core220.lib */,
+				873B731D14646EF100A62DBB /* opencv_core220d.lib */,
+				873B731E14646EF100A62DBB /* opencv_features2d220.lib */,
+				873B731F14646EF100A62DBB /* opencv_features2d220d.lib */,
+				873B732014646EF100A62DBB /* opencv_flann220.lib */,
+				873B732114646EF100A62DBB /* opencv_flann220d.lib */,
+				873B732214646EF100A62DBB /* opencv_gpu220.lib */,
+				873B732314646EF100A62DBB /* opencv_gpu220d.lib */,
+				873B732414646EF100A62DBB /* opencv_haartraining_engine.lib */,
+				873B732514646EF100A62DBB /* opencv_haartraining_engined.lib */,
+				873B732614646EF100A62DBB /* opencv_highgui220.lib */,
+				873B732714646EF100A62DBB /* opencv_highgui220d.lib */,
+				873B732814646EF100A62DBB /* opencv_imgproc220.lib */,
+				873B732914646EF100A62DBB /* opencv_imgproc220d.lib */,
+				873B732A14646EF100A62DBB /* opencv_lapack.lib */,
+				873B732B14646EF100A62DBB /* opencv_lapackd.lib */,
+				873B732C14646EF100A62DBB /* opencv_legacy220.lib */,
+				873B732D14646EF100A62DBB /* opencv_legacy220d.lib */,
+				873B732E14646EF100A62DBB /* opencv_ml220.lib */,
+				873B732F14646EF100A62DBB /* opencv_ml220d.lib */,
+				873B733014646EF100A62DBB /* opencv_objdetect220.lib */,
+				873B733114646EF100A62DBB /* opencv_objdetect220d.lib */,
+				873B733214646EF100A62DBB /* opencv_ts220.lib */,
+				873B733314646EF100A62DBB /* opencv_ts220d.lib */,
+				873B733414646EF100A62DBB /* opencv_video220.lib */,
+				873B733514646EF100A62DBB /* opencv_video220d.lib */,
+				873B733614646EF100A62DBB /* zlib.lib */,
+				873B733714646EF100A62DBB /* zlibd.lib */,
+			);
+			path = vs2010;
+			sourceTree = "<group>";
+		};
+		873B733814646EF100A62DBB /* win_cb */ = {
+			isa = PBXGroup;
+			children = (
+				873B733914646EF100A62DBB /* libopencv_calib3d220.a */,
+				873B733A14646EF100A62DBB /* libopencv_contrib220.a */,
+				873B733B14646EF100A62DBB /* libopencv_core220.a */,
+				873B733C14646EF100A62DBB /* libopencv_features2d220.a */,
+				873B733D14646EF100A62DBB /* libopencv_flann220.a */,
+				873B733E14646EF100A62DBB /* libopencv_gpu220.a */,
+				873B733F14646EF100A62DBB /* libopencv_haartraining_engine.a */,
+				873B734014646EF100A62DBB /* libopencv_highgui220.a */,
+				873B734114646EF100A62DBB /* libopencv_imgproc220.a */,
+				873B734214646EF100A62DBB /* libopencv_lapack.a */,
+				873B734314646EF100A62DBB /* libopencv_legacy220.a */,
+				873B734414646EF100A62DBB /* libopencv_ml220.a */,
+				873B734514646EF100A62DBB /* libopencv_objdetect220.a */,
+				873B734614646EF100A62DBB /* libopencv_video220.a */,
+				873B734714646EF100A62DBB /* libsorder.make */,
+				873B734814646EF100A62DBB /* libzlib.a */,
+			);
+			path = win_cb;
+			sourceTree = "<group>";
+		};
+		873B734914646EF100A62DBB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				873B734A14646EF100A62DBB /* ofxCvBlob.h */,
+				873B734B14646EF100A62DBB /* ofxCvColorImage.cpp */,
+				873B734C14646EF100A62DBB /* ofxCvColorImage.h */,
+				873B734D14646EF100A62DBB /* ofxCvConstants.h */,
+				873B734E14646EF100A62DBB /* ofxCvContourFinder.cpp */,
+				873B734F14646EF100A62DBB /* ofxCvContourFinder.h */,
+				873B735014646EF100A62DBB /* ofxCvFloatImage.cpp */,
+				873B735114646EF100A62DBB /* ofxCvFloatImage.h */,
+				873B735214646EF100A62DBB /* ofxCvGrayscaleImage.cpp */,
+				873B735314646EF100A62DBB /* ofxCvGrayscaleImage.h */,
+				873B735414646EF100A62DBB /* ofxCvHaarFinder.cpp */,
+				873B735514646EF100A62DBB /* ofxCvHaarFinder.h */,
+				873B735614646EF100A62DBB /* ofxCvImage.cpp */,
+				873B735714646EF100A62DBB /* ofxCvImage.h */,
+				873B735814646EF100A62DBB /* ofxCvMain.h */,
+				873B735914646EF100A62DBB /* ofxCvShortImage.cpp */,
+				873B735A14646EF100A62DBB /* ofxCvShortImage.h */,
+				873B735B14646EF100A62DBB /* ofxOpenCv.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		8759028E13E47EA200DB9466 /* ofxQtVideoSaver */ = {
+			isa = PBXGroup;
+			children = (
+				8759028F13E47EA200DB9466 /* ofxQtVideoSaver.cpp */,
+				8759029013E47EA200DB9466 /* ofxQtVideoSaver.h */,
+			);
+			name = ofxQtVideoSaver;
+			path = addons/ofxQtVideoSaver;
+			sourceTree = "<group>";
+		};
+		8759029513E47EB400DB9466 /* jsoncpp */ = {
+			isa = PBXGroup;
+			children = (
+				8759029613E47EB400DB9466 /* autolink.h */,
+				8759029713E47EB400DB9466 /* config.h */,
+				8759029813E47EB400DB9466 /* features.h */,
+				8759029913E47EB400DB9466 /* forwards.h */,
+				8759029A13E47EB400DB9466 /* json.h */,
+				8759029B13E47EB400DB9466 /* json_batchallocator.h */,
+				8759029C13E47EB400DB9466 /* json_internalarray.inl */,
+				8759029D13E47EB400DB9466 /* json_internalmap.inl */,
+				8759029E13E47EB400DB9466 /* json_reader.cpp */,
+				8759029F13E47EB400DB9466 /* json_value.cpp */,
+				875902A013E47EB400DB9466 /* json_valueiterator.inl */,
+				875902A113E47EB400DB9466 /* json_writer.cpp */,
+				875902A213E47EB400DB9466 /* reader.h */,
+				875902A313E47EB400DB9466 /* value.h */,
+				875902A413E47EB400DB9466 /* writer.h */,
+			);
+			name = jsoncpp;
+			path = addons/jsoncpp;
+			sourceTree = "<group>";
+		};
+		87A6E64313D9418D000252AC /* ofxmanymouse */ = {
+			isa = PBXGroup;
+			children = (
+				87A6E64513D9418D000252AC /* lib */,
+				87A6E65013D9418D000252AC /* src */,
+			);
+			name = ofxmanymouse;
+			path = ../../../addons/ofxmanymouse;
+			sourceTree = "<group>";
+		};
+		87A6E64513D9418D000252AC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				87A6E64713D9418D000252AC /* linux_evdev.c */,
+				87A6E64813D9418D000252AC /* macosx_hidmanager.c */,
+				87A6E64913D9418D000252AC /* macosx_hidutilities.c */,
+				87A6E64A13D9418D000252AC /* manymouse.c */,
+				87A6E64B13D9418D000252AC /* manymouse.h */,
+				87A6E64E13D9418D000252AC /* windows_wminput.c */,
+				87A6E64F13D9418D000252AC /* x11_xinput.c */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		87A6E65013D9418D000252AC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				87A6E65113D9418D000252AC /* ofxManyMouse.cpp */,
+				87A6E65213D9418D000252AC /* ofxManyMouse.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				8759029513E47EB400DB9466 /* jsoncpp */,
+				8759028E13E47EA200DB9466 /* ofxQtVideoSaver */,
+				87A6E64313D9418D000252AC /* ofxmanymouse */,
+				873B727C14646EF000A62DBB /* ofxOpenCv */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		BBAB23C913894ECA00AA2426 /* system frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				879CFBC413D3BD12001EF3F2 /* ApplicationServices.framework */,
+				E4C2424410CC5A17004149E2 /* AppKit.framework */,
+				E4C2424510CC5A17004149E2 /* Cocoa.framework */,
+				E4C2424610CC5A17004149E2 /* IOKit.framework */,
+				E45BE9710E8CC7DD009D7055 /* AGL.framework */,
+				E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */,
+				E45BE9740E8CC7DD009D7055 /* Carbon.framework */,
+				E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */,
+				E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */,
+				E45BE9770E8CC7DD009D7055 /* CoreServices.framework */,
+				E45BE9790E8CC7DD009D7055 /* OpenGL.framework */,
+				E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */,
+			);
+			name = "system frameworks";
+			sourceTree = "<group>";
+		};
+		BBAB23CA13894EDB00AA2426 /* 3rd party frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB23BE13894E4700AA2426 /* GLUT.framework */,
+			);
+			name = "3rd party frameworks";
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45BE5980E8CC70C009D7055 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB23CA13894EDB00AA2426 /* 3rd party frameworks */,
+				BBAB23C913894ECA00AA2426 /* system frameworks */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				E45BE5980E8CC70C009D7055 /* frameworks */,
+				E4B69B5B0A3A1756003C02F2 /* VideoNinjaDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				87E8B02C13DF90EE0034E943 /* Segment.cpp */,
+				87E8B02D13DF90EE0034E943 /* Segment.h */,
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* testApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* VideoNinja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "VideoNinja" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = VideoNinja;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* VideoNinjaDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "VideoNinja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* VideoNinja */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -f ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib\"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */,
+				87A6E65313D9418D000252AC /* linux_evdev.c in Sources */,
+				87A6E65413D9418D000252AC /* macosx_hidmanager.c in Sources */,
+				87A6E65513D9418D000252AC /* macosx_hidutilities.c in Sources */,
+				87A6E65613D9418D000252AC /* manymouse.c in Sources */,
+				87A6E65713D9418D000252AC /* windows_wminput.c in Sources */,
+				87A6E65813D9418D000252AC /* x11_xinput.c in Sources */,
+				87A6E65913D9418D000252AC /* ofxManyMouse.cpp in Sources */,
+				87E8B02E13DF90EE0034E943 /* Segment.cpp in Sources */,
+				8759029413E47EA200DB9466 /* ofxQtVideoSaver.cpp in Sources */,
+				875902A513E47EB400DB9466 /* json_reader.cpp in Sources */,
+				875902A613E47EB400DB9466 /* json_value.cpp in Sources */,
+				875902A713E47EB400DB9466 /* json_writer.cpp in Sources */,
+				873B73C514646EF200A62DBB /* ofxCvColorImage.cpp in Sources */,
+				873B73C614646EF200A62DBB /* ofxCvContourFinder.cpp in Sources */,
+				873B73C714646EF200A62DBB /* ofxCvFloatImage.cpp in Sources */,
+				873B73C814646EF200A62DBB /* ofxCvGrayscaleImage.cpp in Sources */,
+				873B73C914646EF200A62DBB /* ofxCvHaarFinder.cpp in Sources */,
+				873B73CA14646EF200A62DBB /* ofxCvImage.cpp in Sources */,
+				873B73CB14646EF200A62DBB /* ofxCvShortImage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = "$(OF_CORE_HEADERS)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-lpthread",
+				);
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = "$(OF_CORE_HEADERS)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-lpthread",
+				);
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(DEVELOPER_DIR)/SDKs/MacOSX10.6.sdk/System/Library/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/android/armeabi\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/android/armeabi-v7a\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/iphone\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/linux\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/linux64\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/osx\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/vs2010\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/win_cb\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(DEVELOPER_DIR)/SDKs/MacOSX10.6.sdk/System/Library/Frameworks\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/android/armeabi\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/android/armeabi-v7a\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/iphone\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/linux\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/linux64\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/osx\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/vs2010\"",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/win_cb\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "VideoNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "VideoNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
